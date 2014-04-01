@@ -17,19 +17,29 @@
 </head>
 <body>
   <header id="topNav" style="height: 92px;">
-        <div class="container">
+    <div class="container">
 
-          <!-- Mobile Menu Button -->
-          <button class="btn" data-toggle="collapse" data-target=".nav-main-collapse" style="margin-top: 8px;">
-            <i class="fa fa-bars"></i>
-          </button>
+      <!-- Mobile Menu Button -->
+      <button class="btn" data-toggle="collapse" data-target=".nav-main-collapse" style="margin-top: 8px;">
+        <i class="fa fa-bars"></i>
+      </button>
 
-          <!-- Logo text or image -->
-          <a class="logo" href="index.html" style="line-height: 50px; margin-top: 0px;">
-            <img src="assets/images/logo.png" alt="Atropos" width="275px">
-          </a>
-        </div>
-      </header>
+      <!-- Logo text or image -->
+      <a class="logo" href="/" style="line-height: 50px; margin-top: 0px;">
+        <img src="assets/images/logo.png" alt="Atropos" width="275px">
+      </a>
+      
+        <div class="navbar-collapse nav-main-collapse collapse pull-right" style="margin-top: 16px;">
+          <nav class="nav-main mega-menu">
+            <ul class="nav nav-pills nav-main scroll-menu" id="topMain">
+              <li class="dropdown active">
+                <a class="dropdown-toggle" href="/login">Login</a>
+              </li>
+            </ul>
+          </nav></div></div>
+        
+      
+    </header>
   <span id="header_shadow" style="top: 92px;"></span>
 
 
