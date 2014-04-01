@@ -14,10 +14,15 @@ class HomeController extends BaseController {
 	|	Route::get('/', 'HomeController@showWelcome');
 	|
 	*/
+	
+	public function hello(){		
+		
+		//$this->layout->title = "Blog";
 
-	public function showWelcome()
-	{
+		//$this->layout->content = View::make( 'hello'  );
+		//$this->layout->content = View::make('hello');
 		return View::make('hello');
+		//return View::make('hello');
 	}
 
 }
