@@ -4,6 +4,8 @@ Climbax is an automated training aid for climbers. It uses two lightweight bands
 
 ## Web App Info
 
+Visti the [ClimbAx Wiki](https://github.com/ClimbAx/webapp-php/wiki) for More Info
+
 This build has both MySQL and MongoDb compatibility currently.  
 
 MySQL is hosted with AmazonAWS
